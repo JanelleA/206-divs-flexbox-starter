@@ -104,27 +104,13 @@ html {
 
 body {
   font-family: 'Source Sans Pro', sans-serif;
+  font-size: 1.25em;
   font-weight: 700;
-  padding: 2em;
+  padding: 0em 2em;
   color: #fff;
   height: 100%;
-}
-
-header,
-footer {
-  width: 100%;
-}
-
-main {
-  width: 100%;
-}
-
-header,
-footer,
-main {
   display: flex;
   justify-content: center;
-  align-items: center;
 }
 
 .wrapper {
@@ -132,27 +118,59 @@ main {
   flex-flow: row wrap;
   justify-content: space-between;
   align-items: center;
+  max-width: 1200px;
 }
 
-.div-1, .div-2, .div-3 {
+p span {
+  font-family: 'Lora', serif;
+}
+
+header,
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+header h1 {
+  font-family: 'Lora', sans-serif;
+  font-size: 3em;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  border-bottom: 1px solid #fff;
+}
+
+main p {
+  font-size: 1.35em;
+}
+
+.flex-items {
   display: flex;
   justify-content: center;
   align-items: center;
   color: #fff;
   line-height: 1.5em;
-  font-size: 1.25em;
+  font-size: 1em;
   height: auto;
   width: 30%;
 }
 
-.wrapper span {
-  font-family: 'Lora', serif;
-  font-size: 1.25em;
-}
-
-.div-1, .div-2 {
+#div-1,
+#div-2 {
   border-right: 1px solid #555;
   padding-right: 1em;
+}
+
+footer {
+  border-top: 1px solid #fff;
+}
+
+footer i {
+  padding: 30px 20px 0 0;
 }
 
 
